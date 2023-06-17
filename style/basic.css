@@ -6,53 +6,55 @@
 
 /* COLORS */
 :root {
-     --btn-and-top-color:#589195;
-     --herosection-color:#DEECEC;
-     --h-color:#3A415C;
-     --p-color:#707686;
-     --jeans-and-say-bg:#F6F8FA;
-     --footer-bg:#E8EAEF;
+  --btn-and-top-color: #589195;
+  --herosection-color: #deecec;
+  --h-color: #3a415c;
+  --p-color: #707686;
+  --jeans-and-say-bg: #f6f8fa;
+  --footer-bg: #e8eaef;
 }
 
 /* BASIC STYLE */
-*,*::after,*::before{
-     padding: 0;
-     margin: 0;
-     box-sizing: border-box;
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-html{
-     font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-.container{
-     max-width: 111rem;
-     margin: 0 auto;
+.container {
+  max-width: 111rem;
+  margin: 0 auto;
 }
-ul{
-     list-style: none;
+ul {
+  list-style: none;
 }
-a{
-     text-decoration: none;
-     display: inline-block;
+a {
+  text-decoration: none;
+  display: inline-block;
 }
-button{
-     border: none;
-     cursor: pointer;
+button {
+  border: none;
+  cursor: pointer;
 }
-.btn{
-     font-family: 'Outfit', sans-serif; 
-     font-weight: 400;
-     font-size: 1.8rem;
-     display: flex;
-     align-items: center;
-     text-align: center;
-     line-height: 4rem;
-     padding: 1rem 3rem;
-     background-color: var(--btn-and-top-color);
-     color: #fff;
-     border-radius: 3.8rem;
-     margin-top: 2.5rem;
+.btn {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  line-height: 4rem;
+  padding: 1rem 4rem;
+  background-color: var(--btn-and-top-color);
+  color: #fff;
+  border-radius: 3.8rem;
+  margin-top: 2.5rem;
 }
-p{
-     color: var(--p-color);
+p {
+  color: var(--p-color);
 }
